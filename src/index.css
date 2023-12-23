@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.square {
+  float : left;
+  width: 60px;      /* Adjusted width */
+  height: 60px;     /* Adjusted height */
+  font-size: 24px;  /* Adjusted font size */
+  /* Add any other styles you want to customize */
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
